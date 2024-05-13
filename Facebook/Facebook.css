@@ -1,0 +1,177 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+.navbar {
+	height: 20px;
+	background-color: wheat;
+	color: black;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: space-around;
+	padding: 20px 0px;
+	position: sticky;
+	top: 0px;
+	z-index: 999;
+}
+.logo {
+	border: 2px solid black;
+	height: 60px;
+	width: 60px;
+	position: fixed;
+	top: 0px;
+	left: 10px;
+	z-index: 999;
+	border-radius: 100px;
+	background-image: url(/tempsnip.png);
+	background-repeat: no-repeat;
+	/* background-attachment: fixed; */
+	background-size: 100% 100%;
+}
+
+.navlist {
+	color: black;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.listitem {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* position: fixed;
+	top: 20px;
+	left: 80px; */
+	margin: 0px;
+	margin-left: 100px;
+	padding: 0px 0px;
+}
+.searchbar {
+	height: 6px;
+	width: 10px;
+	position: fixed;
+	top: 20px;
+	left: 80px;
+	margin-left: 2px;
+	border-radius: 100px;
+	align-content: center;
+}
+.navbar a:hover {
+	color: #0a0a0a;
+}
+
+.leftSideBar {
+	/* border: 2px solid black; */
+	border-top: 2px bisque;
+	width: 300px;
+	height: 600px;
+	position: fixed;
+	left: 0px;
+	padding: 0px 0px;
+}
+.img {
+	border: 2px solid blue;
+	height: 100px;
+	width: 100px;
+	position: relative;
+	top: 10px;
+	margin: auto;
+	border-radius: 80px;
+	background-image: url(/WhatsApp\ Image\ 2023-09-06\ at\ 12.25.12\ PM.jpeg);
+	background-repeat: no-repeat;
+	/* background-attachment: fixed; */
+	background-size: 100% 100%;
+}
+.profile {
+	position: relative;
+	top: 30px;
+	text-align: center;
+	text-decoration: 2px black double;
+}
+.links {
+	/* margin: 5px; */
+	padding: 15px;
+	position: fixed;
+	top: 210px;
+	font-style: bold;
+}
+.leftSideBar a:hover {
+	color: #ed0c0c;
+}
+.centerBar {
+	border: 2px solid white;
+	height: 500px;
+	width: 700px;
+	padding: 0px 0px;
+	margin: auto;
+	position: relative;
+	top: 10px;
+	text-align: center;
+}
+.centerBar {
+	text-align: center;
+}
+.rightSideBar {
+	/* border: 2px solid black; */
+	border-top: 2px black;
+	width: 300px;
+	height: 600px;
+	top: 40px;
+	position: fixed;
+	right: 0px;
+	padding: 0px 0px;
+}
+.img2 {
+	border: 2px solid blue;
+	height: 100px;
+	width: 100px;
+	position: relative;
+	top: 25px;
+	margin: auto;
+	border-radius: 80px;
+	background-image: url(/WhatsApp\ Image\ 2023-09-06\ at\ 12.25.12\ PM.jpeg);
+	background-repeat: no-repeat;
+	/* background-attachment: fixed; */
+	background-size: 100% 100%;
+}
+.profile2 {
+	position: relative;
+	top: 40px;
+	text-align: center;
+	text-decoration: 2px black double;
+}
+.links {
+	/* margin: 5px; */
+	padding: 15px;
+	position: fixed;
+	top: 210px;
+	font-style: bold;
+}
+.rightSideBar a:hover {
+	color: #ed0c0c;
+}
